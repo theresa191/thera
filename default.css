@@ -1,0 +1,32 @@
+*,*::before, *::after{
+    padding:0rem;
+    margin:0rem;
+    box-sizing: border-box;
+    color: white;
+}
+a{
+    margin-top: 1rem; 
+    padding:1rem;
+text-align: center;
+}
+div{
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+span{
+    flex-direction:row ;
+}
+footer{
+    display:flex;
+    float: right;
+
+
+}
+button{
+    width: 10%;
+    height: 50px;
+    background-color: rgb(157, 157, 185);
+    text-align:center;
+    margin-top: 20px;
+}
