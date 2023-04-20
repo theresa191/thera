@@ -15,13 +15,11 @@ display: flex;
 flex-direction: column;
 }
 span{
-    flex-direction:row ;
+    /* flex-direction:row ; */
 }
 footer{
     display:flex;
     float: right;
-
-
 }
 button{
     width: 10%;
