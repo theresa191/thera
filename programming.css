@@ -1,0 +1,12 @@
+*,*::before, *::after{
+    padding:0rem;
+    margin:0rem;
+    box-sizing: border-box;
+    color: rgb(8, 1, 1);
+}
+.Programming>body{
+    background-color: rgb(177, 50, 177);
+}
+.Programming>div{
+    flex-direction: colum;
+}

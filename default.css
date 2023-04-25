@@ -2,20 +2,29 @@
     padding:0rem;
     margin:0rem;
     box-sizing: border-box;
-    color: white;
+    color: rgb(8, 1, 1);
+}
+body{
+    background-image: url("grey-abstract-background-wallpaper-design-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    height:100vh;
 }
 a{
     margin-top: 1rem; 
     padding:1rem;
-text-align: center;
+    text-align: justify;
+    text-decoration: none;
 }
 div{
-text-align: center;
-display: flex;
-flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
 }
-span{
-    /* flex-direction:row ; */
+p{
+    text-align: justify;   
 }
 footer{
     display:flex;
@@ -27,4 +36,13 @@ button{
     background-color: rgb(157, 157, 185);
     text-align:center;
     margin-top: 20px;
+    transition-duration: 0.4s;
+    opacity:0.5;
+    border-radius: .5rem;
+    border:none;
+}
+button:hover{
+  background-color: rgb(153, 9, 41);
+    color:white;
+opacity: 1;
 }
